@@ -10,7 +10,7 @@ container_name = "ctcnie"
 blob_name = "dir1/dir2/sample.png"
 account_name = "stgnie"
 account_key = "3ZzxTtOsD00gpQ/gZdgvFezU2L4f+7xZhgFXELgsVM3ZOKLlRMrtNoBs42w3d+OvjsjTHwLIdUob+AStU3x9cg=="
-
+# Sample Comment
 @app.route('/')
 def index():
     return "To get a SAS token, use the following URL format: /get_sas/<int:days>"
