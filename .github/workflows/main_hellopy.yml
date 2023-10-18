@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'hellopy'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_34950E3025F449CFBA6228BD947CAAEB }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_86D4727FB921422D8330ED660832A617 }}
           package: .
